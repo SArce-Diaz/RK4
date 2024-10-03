@@ -36,7 +36,3 @@ def rk4(func, oper, state, h):
     Returns:
         (np.array): Retorna el estado después de un paso temporal h 
     """
-    k_1 = h*func(oper,state)
-    k_2 = h*func(oper,state+((k_1)/2))
-    k_3 = h*func(oper,state+((k_2)/2))
-    k_4 = h*func(oper,state+k_3)

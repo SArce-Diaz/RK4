@@ -49,6 +49,7 @@ plt.xlabel('Tiempo')
 plt.ylabl('Estado')
 plt.show
 ```
+![](Grafico RK4.jpg)
 
 
 
