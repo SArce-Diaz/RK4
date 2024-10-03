@@ -1,5 +1,18 @@
 site_name: My Docs
 
+theme:
+  name: "material"
+
+plugins: 
+  - mkdocstrings
+
+nav:
+  - index.md
+  - tutorials.md
+  - explanation.md
+  - reference.md
+
+
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
